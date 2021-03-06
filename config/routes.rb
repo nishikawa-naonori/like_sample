@@ -8,7 +8,4 @@ Rails.application.routes.draw do
 
   root 'posts#index'
 
-  post '/dreams/:dream_id/likes' => "likes#create"
-  delete '/dreams/:dream_id/likes' => "likes#destroy"
-
 end
